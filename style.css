@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+
+.country-flag{
+  width: 100%;
+}
+
+.country{
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 16px;
+  font-family: Poppins;
+  gap: 10px;
+  max-width: 250px;
+  box-shadow: 5px 5px 5px;
+}
+
+@media (min-width: 400px) {
+  country{
+    display: flex;
+  }
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+
+
+
